@@ -12,14 +12,13 @@
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/e43252720-blip/python-tools.git
+git clone https://github.com/calvin-aprilian/python-tools.git
 cd python-tools
 ```
 
 ## ⚡ Quick Start
 
 ```bash
-# Run any script
 python halo.py
 ```
 
