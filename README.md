@@ -1,31 +1,32 @@
-# 🐍 Python Tools
+# Automated API Vulnerability Scanner
 
-> Kumpulan script Python untuk automation, utilities, dan tools development
+Custom Python & Node.js tool integrating multi-threading and asynchronous processes to **automate detection of common API misconfigurations and endpoint exposure**.
 
-## 🔥 Features
+> Part of a security research workflow — used to streamline reconnaissance phases during security assessments, significantly reducing manual testing time.
 
-- ✅ Automation scripts
-- ✅ Utility tools
-- ✅ Development helpers
-- ✅ Easy to use & modify
+## 🔧 Features
 
-## 📦 Installation
+- Multi-threaded & async endpoint discovery
+- API misconfiguration detection (auth bypass, excessive data exposure, CORS, rate-limit issues)
+- Recon automation for security assessments
+- Lightweight, scriptable, terminal-first
 
-```bash
-git clone https://github.com/calvin-aprilian/python-tools.git
-cd python-tools
-```
-
-## ⚡ Quick Start
+## 🚀 Usage
 
 ```bash
-python halo.py
+python3 scanner.py --target https://api.example.com --threads 10
 ```
+
+*Note: For authorized security assessments only. Use responsibly with proper scope.*
+
+## 🛠️ Stack
+
+Python, Node.js, asyncio / threading, HTTP tooling
 
 ## 📄 License
 
-MIT License
+MIT
 
 ---
 
-<p align="center"><strong>Built with ❤️ using Python</strong></p>
+*Security research tooling — see [my profile](https://github.com/calvin-aprilian) for more.*
